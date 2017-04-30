@@ -1,0 +1,385 @@
+﻿body{
+	background:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+ a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ul{
+	padding: 0;
+	margin: 0;	
+}
+h1,h2,h3,h4,h5,h6,label,p{
+	margin:0;	
+}
+
+.logo{
+	float: left;
+}
+.head-top {
+  padding: 1em 0;
+}
+.logo h1 a {
+    color: #6c7886;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+/* start menu */
+.h_menu4 {
+  margin: 15px 0 0px;
+  float: right;
+}
+
+.h_nav ul li{
+	display: block;
+}
+.h_nav ul li a{
+	display: block;
+  font-size: 0.85em;
+  color: #8A8686;
+  text-transform: capitalize;
+  line-height: 3em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.h_nav ul li a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+/*--banner--*/
+
+/*-- agileits --*/
+.banner{
+	background: black url('../images/background.jpg') no-repeat ;
+	background-size: cover;
+	width:100%;
+	min-height: 560px;
+	position: relative;
+}
+/*-- agileits --*/
+
+/*--content-top--*/
+/*-- w3layouts --*/
+.cont {
+    position: relative;
+    min-height: 66em;
+}
+.content {
+    position: absolute;
+    top: -62px;
+    background-color: #fff;
+    padding: 2em;
+}
+.content-top h1{
+	color:#6e7786;
+	font-size: 1.7em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.content-top {
+	text-align:center;
+	padding:4em 0;
+}
+.grid-top img{
+	width:100%;
+}
+.grid-top p{
+  font-size: 1.2em;
+  margin: 1em 0 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.grid-top p a{
+	  color: #6e7786;
+  text-decoration: none;
+}
+.grid-top p a:hover{
+	  color: #8ce78a;
+}
+.grid-in {
+  padding: 2em 0 0;
+}
+/*--//content-top--*/
+/*-- agileits --*/
+/*--//content--*/
+.col-md2 {
+  padding: 30px 0 0;
+}
+.men1{
+	padding: 0 15px 0 0;
+}
+.men2{
+	padding: 0 0px 0 15px;
+}
+.content-top-bottom h2{
+    color: #6e7786;
+    font-size: 1.7em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.b-link-stripe{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	font-weight: 300;
+	overflow:hidden;
+	width: 100%;
+}
+.b-link-stripe .b-wrapper{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	text-align:center;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+.b-animate-go{
+	text-decoration:none;
+}
+/*-- w3layouts --*/
+.b-animate{
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	visibility: hidden;
+	font-size:1.1em;
+	font-weight:700;
+}
+.b-animate img{
+	margin-top: 4%;
+	display: -webkit-inline-box;
+}
+.b-animate span{
+	display:block;
+	font-size: 1.5em;
+	padding-top: 5em;
+	display: block;
+	font-weight: 500;
+}
+
+/* lt-ie9 */
+.b-animate-go:hover .b-animate{
+	visibility:visible;
+}
+.b-from-left{
+	position: relative;
+	left: -100%;
+	background: rgba(0, 0, 0, 0.36);
+    background-size: 100% 100%;
+    top: 0px;
+    margin: 0;
+    min-height: 356px;
+}
+.grid-top:hover .b-from-left{
+	left:0;
+}
+.grid-top{
+	position: relative;
+}
+/*----*/
+.col-md1 {
+  position: relative;
+}
+
+.b-from-top{
+	position: relative;
+	top: -100%;
+	background:rgba(0, 0, 0, 0.36);
+    background-size: 100% 100%;
+    margin: 0;
+    min-height: 429px;
+}
+.col-md1:hover .b-from-top{
+	top:0;
+}
+/*-- agileits --*/
+.men:hover .b-from-top{
+	top:0;
+}
+.men1:hover .b-from-top{
+	top:0;
+}
+.men2:hover .b-from-top{
+	top:0;
+}
+.top-in1{
+	min-height: 204px;
+}
+.top-in1 span{
+	padding: 4em 0 0;
+}
+.top-in2 span{
+	padding: 3.5em 0 0;
+}
+.top-in2{
+	min-height: 196px;
+}
+.top-in span{
+	padding: 8em 0 0;
+}
+/*----*/
+/*--//content--*/
+/*-- w3layouts --*/
+/*--footer--*/
+.footer{
+	background:#141414;
+}
+.amet-sed h4{
+	font-size: 1.5em;
+  	color: #B0B2B5;
+    font-family: 'Lato', sans-serif;
+	margin: 0 0 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.footer-top-at {
+    padding: 6em 0 4em;
+}
+ ul.nav-bottom li{
+	list-style:none;
+}
+ul.nav-bottom li  a{
+	text-decoration:none;
+	color:#6B6B6B;
+	font-size:1.1em;
+	display: inline-block;
+    margin: 0.2em 0;
+}
+ul.nav-bottom li  a:hover{
+	color:blue;
+}
+.amet-sed p{
+	color:#989696;
+	font-size: 1em;
+	margin: 0 0 0.3em;
+}
+
+/*-- agileits --*/
+.amet-sed form{
+    padding:1em 0 0;
+}
+.amet-sed input[type=text], .amet-sed input[type=submit] {
+    width: 100%;
+    padding: 0.5em;
+    outline: none;
+    color: #000;
+    font-size: 1em;
+    background: #fff;
+    border: none;
+ }
+.amet-sed input[type=submit] {
+    width: 36%;
+    color: #FFF;
+    font-size: 1em;
+    background:#8ce78a;
+    border: none;
+    outline:none;
+    padding: 0.5em;
+}
+.amet-sed input[type=submit]:hover {
+    background: #fff;
+    color:#8ce78a;
+}
+ul.social{
+    padding:1em 0 0;
+}
+ul.social li{
+    display: inline-block;	
+}
+
+/*--//footer--*/
+/*--contact--*/
+.contact {
+  padding: 3em 0 ;
+}
+.contact h1 {
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+    color: #6c7886;
+    text-align: center;
+    font-weight: 600;
+}
+.contact-grid input[type=text], .contact-grid textarea{
+	width: 100%;
+	padding: 1em;
+	margin: 0.5em 0;
+	background:none;
+	outline:none;
+	border: 1px solid #A09F9F;
+    font-size:1em;
+    color:#A09F9F;
+	-webkit-appearance: none;
+}
+.contact-grid textarea{
+	resize:none;
+}
+/*-- agileits --*/
+.send input[type=submit]{
+	width: 14%;
+	font-size: 1.1em;
+	background:#8ce78a;
+	padding: 0.4em 0.8em;
+	text-align: center;
+	color: #fff;
+	border: none;
+	outline:none;
+	-webkit-appearance: none;
+}
+.send input[type=submit]:hover{
+	background:#2d2d2d;
+}
+.contact-form {
+	padding: 3em 0;
+}
+.address-more {
+  padding: 0 0 2em;
+}
+.contact-in {
+  margin: 1em 0 0;
+}
+.contact-in p{
+	font-size:1em;
+	color: #626262;
+	width: 72%;
+	line-height: 1.7em;	
+}
+.address-more h4{
+	color:#6c7886;
+	font-size:1.4em;
+	  font-family: 'Lato', sans-serif;
+	margin: 0 0 0.3em;
+	  font-weight: 600;
+}
+/*-- w3layouts --*/
+/*--//contact--*/
+.grow {
+    background-color: #8ce78a;
+    padding: 1.3em 0;
+}
+.grow h2 {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+    font-weight: 700;
+}
+.grow h2 {
+    font-size: 1.5em;
+}
+.grow {
+    padding: 1em 0;
+}
