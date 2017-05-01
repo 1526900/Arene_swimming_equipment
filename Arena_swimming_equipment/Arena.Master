@@ -31,11 +31,11 @@
         <div class="container">
 	<div class="head-top">
 		<div class="logo">
-		<h1><a href="index.html">Arena</a></h1>
+		<h1><a href="Default.aspx">Arena</a></h1>
 		</div>
 		<div class=" h_menu4">
 			<ul class="memenu skyblue">
-				<li><a class="color8" href="index.html">Home</a></li>	
+				<li><a class="color8" href="Default.aspx">Home</a></li>	
 				<li><a class="color1" href="#">Shop</a>
 					<div class="mepanel">
 						<div class="row">
@@ -54,7 +54,7 @@
 			    </li>
 			 	<li class="grid"><a class="color2" href="#">Sale</a></li>
 				<li><a class="color4" href="#">Login</a></li>				
-				<li><a class="color6" href="contact.html">Contact</a></li>
+				<li><a class="color6" href="Contact.aspx">Contact</a></li>
 			</ul>
 	    </div>	
 		<div class="clearfix"> </div>
@@ -72,7 +72,7 @@
 				<ul class="nav-bottom">
 						<li><a href="#">How to order</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="contact.html">Location</a></li>
+						<li><a href="Contact.aspx">Location</a></li>
 						<li><a href="#">Shipping</a></li>
 						<li><a href="#">Membership</a></li>	
 					</ul>	

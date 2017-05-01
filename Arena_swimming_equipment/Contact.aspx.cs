@@ -1,0 +1,56 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Mail;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace Arena_swimming_equipment
+{
+    public partial class Contact : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnsend_Click(object sender, EventArgs e)
+        {
+            {
+                SmtpClient smtpClient = new SmtpClient();
+                smtpClient.EnableSsl = true;
+                smtpClient.UseDefaultCredentials = false;
+                smtpClient.Host = "smtp.gmail.com";
+                smtpClient.Port = 587;
+                System.Net.NetworkCredential credentials =
+                    new System.Net.NetworkCredential("arenasport111@gmail.com", "hijaubiru");
+
+                smtpClient.Credentials = credentials;
+
+                MailMessage msg = new MailMessage("arenasport111@gmail.com", txtemail.Text);
+                msg.Subject = "Name: " + txtname.Text + "Subject: " + txtsubject.Text;
+                msg.Body = txtmessage.Text;
+                smtpClient.Send(msg);
+
+                try
+                {
+                    smtpClient.Send(msg);
+                    litResult.Text =
+                        "<p>Success, mail sent using SMTP with secure connection and credentials</p>";
+                }
+                catch (Exception ex)
+                {
+                    smtpClient.Send(msg);
+                    litResult.Text =
+                        "<p>Send failed: " + ex.Message + ":" + ex.InnerException + "</p>";
+
+                }
+            }
+
+
+
+        }
+    }
+}
+
