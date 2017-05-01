@@ -16,12 +16,16 @@
 	<div class="contact-form">
 		<div class="col-md-8 contact-grid">
 			<form action="#" method="post">
-			<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtname" ErrorMessage="Please enter your name"></asp:RequiredFieldValidator>
-			<asp:TextBox ID="txtname" runat="server">Name</asp:TextBox>
+			    <asp:Label ID="Label1" runat="server" Text="Name :"></asp:Label>
+&nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtname" ErrorMessage="Please enter your name"></asp:RequiredFieldValidator>
+			<asp:TextBox ID="txtname" runat="server"></asp:TextBox>
+&nbsp;<asp:Label ID="Label2" runat="server" Text="Email :"></asp:Label>
 &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtemail" ErrorMessage="Please enter your email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
-            <asp:TextBox ID="txtemail" runat="server">Email</asp:TextBox>
+            <asp:TextBox ID="txtemail" runat="server"></asp:TextBox>
+                <asp:Label ID="Label3" runat="server" Text="Subject :"></asp:Label>
 &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtsubject" ErrorMessage="Please enter subject"></asp:RequiredFieldValidator>
-            <asp:TextBox ID="txtsubject" runat="server">Subject</asp:TextBox>
+            <asp:TextBox ID="txtsubject" runat="server"></asp:TextBox>
+                <asp:Label ID="Label4" runat="server" Text="Message :"></asp:Label>
 &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtmessage" ErrorMessage="Please comment"></asp:RequiredFieldValidator>
             <asp:TextBox ID="txtmessage" runat="server" TextMode="MultiLine">Message</asp:TextBox>
 &nbsp;<div class="send">
