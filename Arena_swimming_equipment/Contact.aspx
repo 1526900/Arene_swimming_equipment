@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <br />
+    
     	<!-- grow -->
 	<div class="grow">
 		<div class="container">
@@ -27,7 +27,7 @@
             <asp:TextBox ID="txtsubject" runat="server"></asp:TextBox>
                 <asp:Label ID="Label4" runat="server" Text="Message :"></asp:Label>
 &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtmessage" ErrorMessage="Please comment"></asp:RequiredFieldValidator>
-            <asp:TextBox ID="txtmessage" runat="server" TextMode="MultiLine">Message</asp:TextBox>
+            <asp:TextBox ID="txtmessage" runat="server" TextMode="MultiLine"></asp:TextBox>
 &nbsp;<div class="send">
 				&nbsp;<asp:Button ID="btnsend" runat="server" Text="send" OnClick="btnsend_Click" />
 				<asp:Literal ID="litResult" runat="server"></asp:Literal>
